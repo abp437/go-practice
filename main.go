@@ -2,6 +2,7 @@ package main
 
 import "go-practice/langintro"
 
-func main()  {
-  langintro.PrintHelloWorld()
+func main() {
+	langintro.PrintHelloWorld()
+	langintro.PrintHelloNinjas()
 }
