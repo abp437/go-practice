@@ -1,6 +1,12 @@
 I am thinking that I should follow idiomatic way of writing Go code via the usage of Effective Go:
 https://golang.org/doc/effective_go
 
+I am going to follow "The Net Ninja" Golang series for the language fundamentals
+https://www.youtube.com/watch?v=etSN4X_fCnM&list=PL4cUxeGkcC9gC88BEo9czgyS72A3doDeM
+
+Also Caleb Doxsey's Go Lang Book for Language Fundamentals
+https://www.golang-book.com/books/intro
+
 Day 1:
 Language Introduction
 Format Specifiers
