@@ -1,9 +1,14 @@
 package main
 
-import "go-practice/langintro"
+import (
+	"fmt"
+	"go-practice/langintro"
+)
 
 func main() {
 	langintro.PrintHelloWorld()
 	langintro.PrintHelloNinjas()
-	langintro.PrintAgeName(26, "Akshay")
+
+	marioCharactersList := langintro.MarioCharacters()
+	fmt.Println(marioCharactersList, len(marioCharactersList))
 }
