@@ -1,3 +1,6 @@
+I am thinking that I should follow idiomatic way of writing Go code via the usage of Effective Go:
+https://golang.org/doc/effective_go
+
 Day 1:
 Language Introduction
 Format Specifiers
