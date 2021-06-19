@@ -11,4 +11,7 @@ func main() {
 
 	marioCharactersList := langintro.MarioCharacters()
 	fmt.Println(marioCharactersList, len(marioCharactersList))
+
+	langintro.NormalLoop(5)
+	langintro.RangeLoop()
 }
