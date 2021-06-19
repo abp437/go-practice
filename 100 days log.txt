@@ -7,7 +7,9 @@ https://www.youtube.com/watch?v=etSN4X_fCnM&list=PL4cUxeGkcC9gC88BEo9czgyS72A3do
 Also Caleb Doxsey's Go Lang Book for Language Fundamentals
 https://www.golang-book.com/books/intro
 
-Day 1:
+Day 1 (18 June 2021):
 Language Introduction
 Format Specifiers
 List Types - Arrays and Slices
+
+Day 2 (19 June 2021):

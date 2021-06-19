@@ -5,6 +5,10 @@ import (
 	"go-practice/langintro"
 )
 
+func sayGreeting(name string) {
+	fmt.Println("Good morning", name)
+}
+
 func main() {
 	langintro.PrintHelloWorld()
 	langintro.PrintHelloNinjas()
@@ -14,4 +18,6 @@ func main() {
 
 	langintro.NormalLoop(5)
 	langintro.RangeLoop()
+
+	langintro.HigherOrderFunction("Wario", sayGreeting)
 }
