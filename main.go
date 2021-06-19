@@ -20,4 +20,5 @@ func main() {
 	langintro.RangeLoop()
 
 	langintro.HigherOrderFunction("Wario", sayGreeting)
+	fmt.Println(langintro.FunctionWithReturn(34.6))
 }
