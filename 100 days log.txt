@@ -13,3 +13,12 @@ Format Specifiers
 List Types - Arrays and Slices
 
 Day 2 (19 June 2021):
+Functions with Closures - Higher Order functions
+Loops
+
+I think I could have achieved more today. Today's day was a bust.
+If I continue at this pace, my 100 days would be futile especially if I am at such a pace during weekend.
+I expected to be more speedy during the weekend.
+I'll improve it by being more targeted.
+
+Day 3 (20 June 2021):
