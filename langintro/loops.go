@@ -17,3 +17,7 @@ func RangeLoop() {
 		fmt.Printf("Range For Loop: %v \n", val)
 	}
 }
+
+// Notes:
+// "break" keyword breaks out of the loop completely
+// "continue" keyword skips the current iteration of the loop
