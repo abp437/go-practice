@@ -20,5 +20,7 @@ func main() {
 	langintro.RangeLoop()
 
 	langintro.HigherOrderFunction("Wario", sayGreeting)
-	fmt.Println(langintro.FunctionWithReturn(34.6))
+	fmt.Println(langintro.CircleArea(34.6))
+	fn, ln := langintro.PersonInitials("Akshay Pawar")
+	fmt.Printf("%v. %v. \n", fn, ln)
 }
