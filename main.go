@@ -23,4 +23,5 @@ func main() {
 	fmt.Println(langintro.CircleArea(34.6))
 	fn, ln := langintro.PersonInitials("Akshay Pawar")
 	fmt.Printf("%v. %v. \n", fn, ln)
+	fmt.Println(langintro.MyName)
 }

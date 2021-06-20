@@ -22,3 +22,5 @@ I expected to be more speedy during the weekend.
 I'll improve it by being more targeted.
 
 Day 3 (20 June 2021):
+Functions with Multiple return values
+Functions and Variables with global scope in Package
