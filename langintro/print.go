@@ -29,3 +29,4 @@ func PrintAgeName(age int, name string) {
 // Just like we do for functions
 // Just like math.Pi
 // However all the Functions and Global Variables declared inside a package are accessible to any file inside a package, regardless of whether exported or not
+// Go relatively prefers to keep it's function sizes small, so there is a convention of single letter variable names for arguments of a function. It's idiomatic.

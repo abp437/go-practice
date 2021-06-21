@@ -41,3 +41,5 @@ Structs
 I feel good today overall, since my topics covered today were good, also I bought a new phone for my sister today.
 
 Day 5 (22 June 2021):
+Struct Methods(Receiver Functions)
+Pointer Receiver Functions
