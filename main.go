@@ -24,4 +24,6 @@ func main() {
 	fn, ln := langintro.PersonInitials("Akshay Pawar")
 	fmt.Printf("%v. %v. \n", fn, ln)
 	fmt.Println(langintro.MyName)
+
+	fmt.Println(langintro.ModifyName("Akshay"))
 }
