@@ -26,4 +26,6 @@ func main() {
 	fmt.Println(langintro.MyName)
 
 	fmt.Println(langintro.ModifyName("Akshay"))
+	myBill := langintro.NewBill("Akshay's Bill")
+	fmt.Println(myBill)
 }
