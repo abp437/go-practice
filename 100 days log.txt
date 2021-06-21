@@ -31,4 +31,13 @@ Functions with Multiple return values
 Functions and Variables with global scope in Package
 Maps - Associative arrays
 
+I felt terrible about today again, since my time was wasted in other things.
+
 Day 4 (21 June 2021):
+Pass by Value and Pass by Reference Types
+Pointers
+Structs
+
+I feel good today overall, since my topics covered today were good, also I bought a new phone for my sister today.
+
+Day 5 (22 June 2021):
