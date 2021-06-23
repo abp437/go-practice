@@ -9,8 +9,8 @@ type Bill struct {
 	tip   float64
 }
 
-// NewBill is like a constructor, it creates a new bill wth initial values and returns the Bill
-func NewBill(n string) Bill {
+// newBill is like a constructor, it creates a new bill wth initial values and returns the Bill
+func newBill(n string) Bill {
 	b := Bill{
 		name:  n,
 		items: map[string]float64{},
