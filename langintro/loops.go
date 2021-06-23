@@ -2,6 +2,8 @@ package langintro
 
 import "fmt"
 
+// Exported Functions:
+
 // NormalLoop prints the indexes until a provided count not including the count itself
 func NormalLoop(count int) {
 	for i := 0; i < count; i++ {

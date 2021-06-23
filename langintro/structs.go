@@ -9,15 +9,7 @@ type Bill struct {
 	tip   float64
 }
 
-// newBill is like a constructor, it creates a new bill wth initial values and returns the Bill
-func newBill(n string) Bill {
-	b := Bill{
-		name:  n,
-		items: map[string]float64{},
-		tip:   0,
-	}
-	return b
-}
+// Exported Functions:
 
 // Format receiver function/method takes in a Bill and then returns a formatted Bill
 func (b *Bill) Format() string {
@@ -37,14 +29,26 @@ func (b *Bill) Format() string {
 	return fs
 }
 
+// AddItem receiver function/method adds an item to a bill
+func (b *Bill) AddItem(name string, price float64) {
+	b.items[name] = price
+}
+
 // UpdateTip receiver function/method adds an extra tip to a bill
 func (b *Bill) UpdateTip(n float64) {
 	b.tip = n
 }
 
-// AddItem receiver function/method adds an item to a bill
-func (b *Bill) AddItem(name string, price float64) {
-	b.items[name] = price
+// Package Functions:
+
+// newBill is like a constructor, it creates a new bill wth initial values and returns the Bill
+func newBill(n string) Bill {
+	b := Bill{
+		name:  n,
+		items: map[string]float64{},
+		tip:   0,
+	}
+	return b
 }
 
 // Notes:

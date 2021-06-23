@@ -1,8 +1,6 @@
 package langintro
 
-func updateNameViaPointer(n *string) {
-	*n = *n + " Pawar!"
-}
+// Exported Functions:
 
 // ModifyName accepts a name and then modifies it's value through a pointer
 func ModifyName(n string) string {
@@ -15,6 +13,12 @@ func ModifyName(n string) string {
 	// This works as well
 	// updateNameViaPointer(&n)
 	return n
+}
+
+// Package Functions:
+
+func updateNameViaPointer(n *string) {
+	*n = *n + " Pawar!"
 }
 
 // Notes:

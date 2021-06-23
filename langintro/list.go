@@ -1,5 +1,7 @@
 package langintro
 
+// Exported Functions:
+
 // MarioCharacters returns the list of Mario Characters
 func MarioCharacters() []string {
 	// Slices are actually arrays without a fixed length
