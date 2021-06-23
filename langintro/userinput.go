@@ -3,6 +3,7 @@ package langintro
 import (
 	"bufio"
 	"fmt"
+	"log"
 	"os"
 	"strings"
 )
@@ -12,7 +13,11 @@ import (
 // CreateBill creates a bill through user input and then sends it back to the user
 func CreateBill() Bill {
 	reader := bufio.NewReader(os.Stdin)
-	name, _ := cliInput(reader, "Enter your name: ")
+	name, err := cliInput(reader, "Enter your name: ")
+	if err != nil {
+		log.Fatal(err)
+	}
+
 	b := newBill(name)
 	promptOptions(reader, &b)
 	return b
@@ -23,12 +28,19 @@ func CreateBill() Bill {
 func cliInput(r *bufio.Reader, p string) (string, error) {
 	fmt.Print(p)
 	input, err := r.ReadString('\n')
+	if err != nil {
+		log.Fatal(err)
+	}
 
 	return strings.TrimSpace(input), err
 }
 
 func promptOptions(r *bufio.Reader, b *Bill) {
-	opt, _ := cliInput(r, "Choose Option (a - add item, s - save bill, t - add tip) \n")
+	opt, err := cliInput(r, "Choose Option (a - add item, s - save bill, t - add tip) \n")
+	if err != nil {
+		log.Fatal(err)
+	}
+
 	switch strings.ToLower(opt) {
 	case "a":
 		fmt.Println("Adding item")
