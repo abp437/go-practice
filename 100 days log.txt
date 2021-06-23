@@ -54,3 +54,5 @@ It's my time now to work hard and achieve exponential success.
 
 Day 6 (23 June 2021):
 User Input
+Function Ordering
+Usage of pointers and different packages

@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"log"
 	"os"
+	"strconv"
 	"strings"
 )
 
@@ -43,13 +44,46 @@ func promptOptions(r *bufio.Reader, b *Bill) {
 
 	switch strings.ToLower(opt) {
 	case "a":
-		fmt.Println("Adding item")
+		name, err := cliInput(r, "Item name \n")
+		if err != nil {
+			log.Fatal(err)
+		}
+
+		price, err := cliInput(r, "Item price \n")
+		if err != nil {
+			log.Fatal(err)
+		}
+
+		p, err := strconv.ParseFloat(price, 64)
+		if err != nil {
+			fmt.Println("The price must be a number")
+			promptOptions(r, b)
+		}
+		b.AddItem(name, p)
+		fmt.Println("Item added - ", name, p)
+
+		promptOptions(r, b)
+	case "t":
+		tip, err := cliInput(r, "Tip Amount ($) \n")
+		if err != nil {
+			log.Fatal(err)
+		}
+
+		t, err := strconv.ParseFloat(tip, 64)
+		if err != nil {
+			fmt.Println("The tip must be a number")
+			promptOptions(r, b)
+		}
+		b.UpdateTip(t)
+		fmt.Println("Updated Tip - ", t)
+
+		promptOptions(r, b)
 	case "s":
 		fmt.Println("Saving bill")
-	case "t":
-		fmt.Println("Adding tip")
+		b.Format()
 	default:
-		fmt.Println("Enter a correct option, Jabroni")
+		fmt.Println("Enter a correct option, Jabroni...")
+		promptOptions(r, b)
 	}
 }
 
