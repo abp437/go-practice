@@ -56,3 +56,12 @@ Day 6 (23 June 2021):
 User Input
 Function Ordering
 Usage of pointers and different packages
+CLI Billing program
+Save contents to a file
+Interfaces
+Net Ninja's Series completion
+Started reading Caleb Doxey's book
+
+I worked on my day job today for 2 hours. Then worked on this repo. I am still facing focus issues. I am able to do only one thing well at a time.
+I need to develop the habit of working on two projects through the same day.
+I need to work on my day job with full focus, also work on this repo with full focus after my day job hours.

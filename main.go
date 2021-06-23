@@ -27,5 +27,13 @@ func main() {
 
 	fmt.Println(langintro.ModifyName("Akshay"))
 
+	shapes := []langintro.Shape{
+		langintro.Circle{Radius: 20.3},
+		langintro.Square{Length: 20.3},
+	}
+	for _, s := range shapes {
+		langintro.ShapeInfo(s)
+	}
+
 	langintro.CreateBill()
 }
