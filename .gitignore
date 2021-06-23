@@ -16,3 +16,6 @@
 
 # Local Binary
 go-practice
+
+# Temporary Directory for saving files in development
+tmp/

@@ -12,7 +12,7 @@ import (
 // Exported Functions:
 
 // CreateBill creates a bill through user input and then sends it back to the user
-func CreateBill() Bill {
+func CreateBill() {
 	reader := bufio.NewReader(os.Stdin)
 	name, err := cliInput(reader, "Enter your name: ")
 	if err != nil {
@@ -21,7 +21,6 @@ func CreateBill() Bill {
 
 	b := newBill(name)
 	promptOptions(reader, &b)
-	return b
 }
 
 // Package Functions:
@@ -37,7 +36,7 @@ func cliInput(r *bufio.Reader, p string) (string, error) {
 }
 
 func promptOptions(r *bufio.Reader, b *Bill) {
-	opt, err := cliInput(r, "Choose Option (a - add item, s - save bill, t - add tip) \n")
+	opt, err := cliInput(r, "Choose Option (a - add item, s - save the bill to a file, t - add tip) \n")
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -80,11 +79,15 @@ func promptOptions(r *bufio.Reader, b *Bill) {
 		promptOptions(r, b)
 	case "s":
 		fmt.Println("Saving bill")
-		b.Format()
+		b.saveBill()
 	default:
 		fmt.Println("Enter a correct option, Jabroni...")
 		promptOptions(r, b)
 	}
+}
+
+func (b *Bill) saveBill() {
+	writeToFile(b.Format(), b.name)
 }
 
 // Notes:

@@ -27,6 +27,5 @@ func main() {
 
 	fmt.Println(langintro.ModifyName("Akshay"))
 
-	myBill := langintro.CreateBill()
-	fmt.Print(myBill.Format())
+	langintro.CreateBill()
 }
