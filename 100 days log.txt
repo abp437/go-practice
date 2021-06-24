@@ -68,3 +68,15 @@ I need to work on my day job with full focus, also work on this repo with full f
 
 Day 7 (24 June 2021):
 Commenced on Stephen Grider's Course
+
+The struggle that lies in front of me now, is that should I become good in data structures and algorithms or good in web application development. Since both are important and vital to a developer.
+
+Becoming good in DS and Algos(DSA) is my dream since college. It will be a badge of honor for me. Since it'll give me the confidence that I am able to solve tough problems through programming. It'll improve my logic and it'll help me with my problem solving skills and thus make me a good problem solver, hence, a Better Engineer. It will also help me rid off the fear of switching and coding in multiple languages, since you can write same DS and Algos in different languages. DSA will help me to write more efficient code but currently I can manage to solve problems with Brute force approach. Becoming good in DSA will help me increase my prospects in switching my company from a small to a big tech company. It will help to get a leap in my payscale, but it might drive me into a niche of Front End development.
+
+Launching and sucessfully running my own company is my lifetime's dream. Becoming good in web application development will help me become a full stack developer and I will thus be able to develop my own applications independently. Thus making me self reliant. It can help me to launch my own company if I am able to develop applications on my own. Web App development will require me to grab knowledge of Databases and Back End development which might require more time than 100 days. So, maybe my timelines will be distorted if I follow this.
+
+But in the long term both of the things are very important and dear to me. It's my dream to launch my own company. It's my dream to become a great problem solver. I will have to choose which one to pick right now, then I can shift my focus to the other one after the first is done.
+
+Realistically speaking, I might not be able to launch my company if I don't have the confidence that I can't solve tough problems. I can't be reliant on my employees forever to solve all the problems for me. In short I can launch my company after I am good in DSA and Problem solving. But it can't happen the other way around. I can't launch my company and after it become better at DSA and Problem Solving. The company might shut down if I follow this approach. So, I think I have arrived to my solution to be first good at DSA and Problem Solving, then I can switch on to application development.
+
+I will have to execute another 100 days habit for Application Development. So, my next target will be "100 days of Application Development" after my current 100 days are done.
