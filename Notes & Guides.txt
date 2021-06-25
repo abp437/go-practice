@@ -1,0 +1,6 @@
+Guides:
+
+A lot of learning Go is about learning about the standard library packages and how they work.
+It's also about navigating through the official documentation.
+
+Notes:
