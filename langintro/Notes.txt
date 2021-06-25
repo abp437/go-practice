@@ -1,0 +1,3 @@
+This package will feature as a reference to all of my future development in Go.
+It will consist of all the basic syntax and the language features of Go.
+It can thus serve as a beginner's guide to start wuth Go programming.
