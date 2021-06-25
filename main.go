@@ -1,7 +1,14 @@
 package main
 
-import "fmt"
+import (
+	"go-practice/cards"
+)
 
 func main() {
-	fmt.Println("Hello World")
+	deck := cards.Deck{
+		"Ace of Spades",
+		"Five of Diamonds",
+	}
+
+	deck.Print()
 }

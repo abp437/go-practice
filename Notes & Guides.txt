@@ -3,7 +3,9 @@ Guides:
 A lot of learning Go is about learning about the standard library packages and how they work.
 It's also about navigating through the official documentation.
 Go's error messages in Code Editor and Compiler are very efficient and informative. Try to infer from it before Googling about it.
+Go is a very clean language, you can actually feel in love with it.
 
 Notes:
 Structs in Go are just like Objects in JavaScript. You can attach methods to it and store values of different data types in one container.
 Interfaces are functions which can be applied across multiple different Structs. They can thus accept values of different data types in it. Provided that the Struct implements all the functions mentioned in the interface.
+Unused variables are not allowed in Go, however unused functions are allowed in Go. It's upto the developer to remove unused functions since, we generally keep Go's functions scattered in separate files.
