@@ -1,3 +1,18 @@
 Testing in Go
+GoRoutines and Channels
 Data Structures
-Algos that operate on those DS.
+Algos that operate on those DS
+
+Basic DS and Algos:
+Time and Space Complexity Analysis
+Arrays
+Stacks
+Queues
+Linked List
+Trees
+Tries
+Graphs (BFS and DFS)
+Hashing
+Heaps
+Sorting
+Searching

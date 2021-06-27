@@ -7,10 +7,21 @@ https://www.youtube.com/watch?v=etSN4X_fCnM&list=PL4cUxeGkcC9gC88BEo9czgyS72A3do
 Also Caleb Doxsey's Go Lang Book for Language Fundamentals
 https://www.golang-book.com/books/intro
 
+Reference Links:
 100 Days of Code:
 https://www.geeksforgeeks.org/100-days-of-code-a-complete-guide-for-beginners-and-experienced/
+Data Structures:
+https://www.geeksforgeeks.org/data-structures/
+Algorithms:
+https://www.geeksforgeeks.org/fundamentals-of-algorithms/
+
 I am following the 100 days of code beginner model for Learning Golang, DS and Algos and Problem Solving in general.
+If I follow the beginner's model for the 100 days of code then I will have to solve 450-500 questions in coding.
+According to convention ideally each problem shouldn't take more than 20-30 mins. But some problems can be an exception.
+After learning the basic DS and Algos, it expects that I must solve almost 8-12 questions a day within the timeframe of 4-6 hours it'll help me in building a good foundation.
 My 100 days will end on 26th September 2021.
+
+Daily Log:
 
 Day 1 (18 June 2021):
 Language Introduction
