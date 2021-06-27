@@ -7,6 +7,9 @@ https://www.youtube.com/watch?v=etSN4X_fCnM&list=PL4cUxeGkcC9gC88BEo9czgyS72A3do
 Also Caleb Doxsey's Go Lang Book for Language Fundamentals
 https://www.golang-book.com/books/intro
 
+GoByExample for Quick Refernces and explanation
+https://gobyexample.com/
+
 Reference Links:
 100 Days of Code:
 https://www.geeksforgeeks.org/100-days-of-code-a-complete-guide-for-beginners-and-experienced/
@@ -111,8 +114,8 @@ Day 10 (27 June 2021):
 Stephen Grider's lectures - Watched until #33.
 Random number Generation based on time
 Basic Testing
-Go Routines - From Nic Raboy
-Channels - From Nic Raboy
+Go Routines - From Nic Raboy - I think Stephen Grider's are better at demos and exercises, might need to study it
+Channels - From Nic Raboy - I think Stephen Grider's are better at demos and exercises, might need to study it
 
 The thing I am trying to calculate is if I stop the 100 days of code temporarily for coding the Business application, then what's the worst thing that could happen? Maybe I could get derailed from the track of developing myself as a software developer. Since my goal was to become good at DSA. Then I would move onto application development. But since the urgency of my brother of him needing an application to manage his business, then I think I need to help him and keep my aspirations aside for a moment. But on the plus side of things, there would be a gigantic leap for me since, I would be working on and deploying my first full stack application. This is something I have never done before. It's a lot more adventurous and exciting.
 As an additional thought, I have decided that I am not going to take help from anyone. I will be learning everything on my own and implementing everything on my own. I am not going to be concerned what other people are doing in their lives and stop persuading them. I am just too busy with my targets and goals these days. The internet is my friend, in such a case, for problem solving and help.

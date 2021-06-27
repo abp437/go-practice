@@ -1,7 +1,8 @@
 Testing in Go
-GoRoutines and Channels
+GoRoutines, Mutexes and Channels
 Data Structures
 Algos that operate on those DS
+Dynamic Programming
 
 Basic DS and Algos:
 Time and Space Complexity Analysis
