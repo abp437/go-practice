@@ -98,3 +98,5 @@ I will sit on Golang for an hour now however, since I know consistency is the ke
 
 Day 10 (27 June 2021):
 Stephen Grider's lectures
+Random number Generation based on time
+Basic Testing
