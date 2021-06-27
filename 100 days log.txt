@@ -108,6 +108,16 @@ Such as creating my first Express app. My first Protected Routes in a React App.
 I will sit on Golang for an hour now however, since I know consistency is the key to exponential success. If I quit now, I would wish like a year from now that I shouldn't have stopped. So, I'm not going to stop. I am going to grow exponentially.
 
 Day 10 (27 June 2021):
-Stephen Grider's lectures
+Stephen Grider's lectures - Watched until #33.
 Random number Generation based on time
 Basic Testing
+Go Routines - From Nic Raboy
+Channels - From Nic Raboy
+
+The thing I am trying to calculate is if I stop the 100 days of code temporarily for coding the Business application, then what's the worst thing that could happen? Maybe I could get derailed from the track of developing myself as a software developer. Since my goal was to become good at DSA. Then I would move onto application development. But since the urgency of my brother of him needing an application to manage his business, then I think I need to help him and keep my aspirations aside for a moment. But on the plus side of things, there would be a gigantic leap for me since, I would be working on and deploying my first full stack application. This is something I have never done before. It's a lot more adventurous and exciting.
+As an additional thought, I have decided that I am not going to take help from anyone. I will be learning everything on my own and implementing everything on my own. I am not going to be concerned what other people are doing in their lives and stop persuading them. I am just too busy with my targets and goals these days. The internet is my friend, in such a case, for problem solving and help.
+But the question is for how long do I expect the application development might last? Maybe the basic version development might last for 2 weeks. Then there might be support and advanced features development. But I plan on that I should come back to 100 days of DSA first, complete it and then switch to business application development and advanced features.
+The major question is should I do both paralelly? I don't think that it would be a good choice for me since, I am bad at doing multiple things paralelly. There's an additional responsibility of my daytime job. So, I think that doing just 2 things might be right for me now.
+So, for 2 weeks from tomorrow, I will return to 100 days of DSA. I have completed just 10 days of the 100 days of DSA. I have completed the language fundamentals of Golang today. I will resume from 12 July 2021 again on 100 days of DSA. I will resume directly on DSA, after a brief refresher on language fundamentals. I have kept a record of whatever I ahve learnt until now in this repo itself.
+Keeping myself publicly accountable, my Github will have daily commits on other repos. I will keep my Daily Log in other repos.
+Maybe I will come out as a stronger person at the end of these 2 weeks.
