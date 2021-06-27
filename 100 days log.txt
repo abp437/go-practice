@@ -94,7 +94,7 @@ Nic Raboy's lectures
 
 Today, I didn't work on Golang at all. Instead I was busy creating a full stack application which my brother needs for business. Altough I didn't work on Golang today, I don't feel terrible or disgusted, since, I worked on other things today.
 Such as creating my first Express app. My first Protected Routes in a React App. Making Front End and Back End interact with each other from scratch. I will continue to work on his application tomorrow as well. Since I have got a lot of ground to cover.
-I will sit on Golang for an hour now however, since I know consistency is the key to exponential success. If I quit now, I would wish like a year from now that I shouldn't have stopped. So, I'm not going to stop. I am going to grwo exponentially.
+I will sit on Golang for an hour now however, since I know consistency is the key to exponential success. If I quit now, I would wish like a year from now that I shouldn't have stopped. So, I'm not going to stop. I am going to grow exponentially.
 
 Day 10 (27 June 2021):
 Stephen Grider's lectures

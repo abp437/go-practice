@@ -4,7 +4,9 @@ import (
 	"fmt"
 	"io/ioutil"
 	"log"
+	"math/rand"
 	"strings"
+	"time"
 )
 
 // Exported Structs:
@@ -42,18 +44,24 @@ func Deal(d Deck, size int) (Deck, Deck) {
 
 // Shuffle shuffles all the cards in a deck of cards
 func (d Deck) Shuffle() {
+	// Need this for unique generation of a random number every time
+	// This generates a random number not only at compilation but also on every execution
+	rand.Seed(time.Now().UnixNano())
 
+	for i := range d {
+		randNum := rand.Intn(len(d) - 1)
+		d[i], d[randNum] = d[randNum], d[i]
+	}
 }
 
 // SaveToFile takes in the contents of a Deck of cards and saves it to a file
-func (d Deck) SaveToFile(filename string) error {
-	return ioutil.WriteFile(filename, []byte(d.toString()), 0644)
+func (d Deck) SaveToFile(filepath string) error {
+	return ioutil.WriteFile(filepath, []byte(d.toString()), 0644)
 }
 
 // NewDeckFromFile reads the contents from a file and creates a Deck Struct and returns it
-func NewDeckFromFile(filename string) Deck {
-	// cards := Deck{}
-	contents, err := ioutil.ReadFile(filename)
+func NewDeckFromFile(filepath string) Deck {
+	contents, err := ioutil.ReadFile(filepath)
 	if err != nil {
 		log.Fatal(err)
 	}
